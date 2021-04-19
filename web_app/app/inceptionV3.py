@@ -1,4 +1,3 @@
-from app import views
 from flask import Flask
 
 import numpy as np
