@@ -1,5 +1,3 @@
-from flask import Flask
-
 import numpy as np
 import os, shutil
 from tensorflow.keras.models import load_model
