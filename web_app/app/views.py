@@ -1,7 +1,6 @@
 from app import app, inceptionV3
 from flask import Flask, render_template, request, redirect, jsonify
 from werkzeug.utils import secure_filename
-# from random import randint
 import os
 
 app.config["UPLOAD_EXTENSIONS"] = [".jpg", ".png"]
