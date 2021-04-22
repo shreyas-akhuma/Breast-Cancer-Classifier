@@ -1,7 +1,7 @@
 # Breast-Cancer-Classifier
 
 ## Dataset Details
-The dataset, "Breast Histopathalogy Images" by Paul Mooney has been imported from Kaggle. For each patient, the data has been classified as class 0 (benign) and class 1 (malignant). The entire dataset has been seperated out as train and test data with class 0 and class 1 folders within each of the two folders. The entire dataset has been sized down from 277,524 to 48,096 as it couldn't be completely unzipped into colab.
+The dataset, "Breast Histopathalogy Images" by Paul Mooney has been imported from Kaggle. For each patient, the data has been classified as class 0 (benign) and class 1 (malignant). The entire dataset has been seperated out as train and test data with class 0 and class 1 folders within each of the two folders. It has then been sized down from 277,524 to 48,096 as it couldn't be completely unzipped into colab.
 
 ## Stain Normalization 
 The main issue with histological image is that we cannot identify the variations in colors between the images. This is due to the different slider scanners used in color responses. Also the raw materials and manufacturing materials are also responsible. Hence, we use the technique stain normalization.This is the most crucial pre-processing step, before conducting any type of analysis by using histology images. In this project, we have used Vahadane method of stain normalization which is proposed by Abhishek Vahadane. Color histograms of source image is matched with the target image following which transformation of RGB images to de-correlated LAB color space. 
