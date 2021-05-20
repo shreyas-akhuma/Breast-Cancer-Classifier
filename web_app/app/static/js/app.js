@@ -15,8 +15,12 @@ function updateCSS() {
          $("#neutral").css("display", data.neutral);
          $("#IDC").css("display", data.idc);
          $("#nonIDC").css("display", data.nonidc);
-         $("#accuracy").text(data.acc)
-         console.log(data)
+         $("#accuracy").text(data.acc);
+         if(data.color != "inherit")
+         {
+            $("#submit").css("display", "none");
+         }
+         console.log(data);
       }
    });
 }
