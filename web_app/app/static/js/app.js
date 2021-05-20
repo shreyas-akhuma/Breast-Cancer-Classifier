@@ -20,5 +20,3 @@ function updateCSS() {
       }
    });
 }
-
-setInterval(updateCSS, 1000);
